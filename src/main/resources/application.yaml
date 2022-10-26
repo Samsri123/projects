@@ -1,0 +1,27 @@
+server:
+  port: 8011
+
+spring:
+  application:
+    name: USER-SERVICE
+  datasource:
+    username: srikanth
+    password: srikanth
+    url: jdbc:mysql://127.0.0.1:3306/user_db
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: lovecalculatorsrikanth143@gmail.com
+    password:
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enabled: true
+
+jwt:
+  secret: {[(9ABsdhsJKhsdjkieorbvfdsutnUDgfdaklKFHFZSD&$58752323073@#!)]}
